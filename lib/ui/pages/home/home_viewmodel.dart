@@ -4,6 +4,9 @@ class HomeViewModel extends BaseViewModel {
   String _title = 'Home View';
   String get title => '$_title counter:$counter';
 
+  String _bottomTitle = 'Bottom Title';
+  String get bottomTitle => _bottomTitle;
+
   int _counter = 0;
   int get counter => _counter;
 
